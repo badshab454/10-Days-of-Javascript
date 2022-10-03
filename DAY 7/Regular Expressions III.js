@@ -4,7 +4,7 @@ function regexVar() {
      * It must match ALL occurrences of numbers in a string.
      */
     
-    
+    var re = RegExp('\\d+', 'g');
     /*
      * Do not remove the return statement
      */
